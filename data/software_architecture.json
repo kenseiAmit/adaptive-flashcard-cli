@@ -1,0 +1,34 @@
+{
+  "cards": [
+    {
+      "front": "Which design pattern encapsulates interchangeable algorithms and selects one at runtime?",
+      "back": "Strategy Pattern",
+      "hint": "Used in this app for Sequential, Random, and Adaptive modes",
+      "category": "Design Patterns"
+    },
+    {
+      "front": "Which creational design pattern instantiates objects without exposing creation logic to the client?",
+      "back": "Factory Pattern",
+      "hint": "Creates objects based on a string identifier or configuration",
+      "category": "Design Patterns"
+    },
+    {
+      "front": "What does the 'S' in SOLID principles stand for?",
+      "back": "Single Responsibility Principle",
+      "hint": "A module or class should have only one reason to change",
+      "category": "SOLID"
+    },
+    {
+      "front": "What does the 'O' in SOLID principles stand for?",
+      "back": "Open/Closed Principle",
+      "hint": "Open for extension, closed for modification",
+      "category": "SOLID"
+    },
+    {
+      "front": "Which behavioral design pattern defines a one-to-many dependency so state changes notify dependents?",
+      "back": "Observer Pattern",
+      "hint": "Commonly used in event-driven architectures and pub/sub systems",
+      "category": "Design Patterns"
+    }
+  ]
+}
