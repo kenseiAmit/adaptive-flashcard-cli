@@ -2,7 +2,7 @@
 
 **Author:** Amit Kumar Koshta  
 **Project Title:** Flashcard Quizzer: AI-Assisted CLI Learning Application  
-**Date:** November 6, 2026
+**Date:** May 14, 2024
 
 ## Executive Summary
 

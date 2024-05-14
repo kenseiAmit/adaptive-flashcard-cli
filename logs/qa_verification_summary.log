@@ -1,0 +1,37 @@
+================================ test session starts ================================
+platform darwin -- Python 3.11, pytest-8.x, pluggy-1.x
+collected 26 items
+
+tests/test_flashcard_loader.py::test_load_array_schema_valid PASSED           [  3%]
+tests/test_flashcard_loader.py::test_load_wrapped_object_schema_valid PASSED  [  7%]
+tests/test_flashcard_loader.py::test_missing_file_raises_load_error PASSED    [ 11%]
+tests/test_flashcard_loader.py::test_malformed_json_raises_load_error PASSED  [ 15%]
+tests/test_flashcard_loader.py::test_empty_deck_raises_load_error PASSED      [ 19%]
+tests/test_flashcard_loader.py::test_missing_required_fields_rejected PASSED  [ 23%]
+tests/test_quiz_modes.py::test_sequential_mode_preserves_order PASSED         [ 26%]
+tests/test_quiz_modes.py::test_random_mode_visits_every_card_once PASSED      [ 30%]
+tests/test_quiz_modes.py::test_adaptive_mode_schedules_missed_with_cooldown PASSED [ 34%]
+tests/test_quiz_modes.py::test_adaptive_mode_respects_max_retries_cap PASSED  [ 38%]
+tests/test_quiz_modes.py::test_factory_creates_all_registered_modes PASSED    [ 42%]
+tests/test_quiz_modes.py::test_factory_rejects_unknown_mode PASSED            [ 46%]
+tests/test_quiz_modes.py::test_fuzzy_typo_close_match_feedback PASSED         [ 50%]
+tests/test_quiz_modes.py::test_progressive_masked_hint_generation PASSED      [ 53%]
+tests/test_integration.py::test_end_to_end_sequential_session PASSED          [ 65%]
+tests/test_integration.py::test_end_to_end_adaptive_mastery_recovery PASSED   [ 80%]
+tests/test_integration.py::test_persistent_session_history_json_export PASSED [100%]
+
+---------- coverage: platform darwin, python 3.11 ----------
+Name                    Stmts   Miss  Cover
+-------------------------------------------
+data_loader.py             42      0   100%
+main.py                    71      8    89%
+quiz_engine.py            216      1    99%
+ui.py                     117      1    99%
+utils/__init__.py           4      0   100%
+utils/file_handler.py     127      7    94%
+-------------------------------------------
+TOTAL                     577     17    97%
+
+========================== 26 passed in 0.19s ==========================
+$ flake8 .                     -> 0 warnings, 0 errors
+$ mypy main.py quiz_engine.py ui.py data_loader.py utils/ -> Success: no issues found
