@@ -1,11 +1,15 @@
-# Adaptive Flashcard Quizzer — Active-Recall CLI Learning Engine
+<div align="center">
+  <img src="assets/hero-banner.svg" alt="Adaptive Flashcard CLI Engine" width="100%" />
+  <br/><br/>
+  [![CI](https://github.com/kenseiAmit/adaptive-flashcard-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/kenseiAmit/adaptive-flashcard-cli/actions/workflows/ci.yml)
+  ![Python](https://img.shields.io/badge/Python-3.9%2B%20Stdlib-3776AB?style=flat-square&logo=python&logoColor=white)
+  ![Pytest](https://img.shields.io/badge/Pytest-26%2F26%20Passing-16A34A?style=flat-square&logo=pytest&logoColor=white)
+  ![Coverage](https://img.shields.io/badge/Statement%20Coverage-97%25-0D9488?style=flat-square)
+  ![Static QA](https://img.shields.io/badge/Flake8%20%7C%20Mypy%20%7C%20Black-100%25%20Clean-2563EB?style=flat-square)
+  ![License](https://img.shields.io/badge/License-MIT-slate?style=flat-square)
+</div>
 
-[![CI](https://github.com/kenseiAmit/adaptive-flashcard-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/kenseiAmit/adaptive-flashcard-cli/actions/workflows/ci.yml)
-![Python](https://img.shields.io/badge/Python-3.9%2B%20Stdlib-3776AB?style=flat-square&logo=python&logoColor=white)
-![Pytest](https://img.shields.io/badge/Pytest-26%2F26%20Passing-16A34A?style=flat-square&logo=pytest&logoColor=white)
-![Coverage](https://img.shields.io/badge/Statement%20Coverage-97%25-0D9488?style=flat-square)
-![Static QA](https://img.shields.io/badge/Flake8%20%7C%20Mypy%20%7C%20Black-100%25%20Clean-2563EB?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-slate?style=flat-square)
+---
 
 ![Coverage & Adaptive Retry Telemetry](docs/images/coverage_and_adaptive_retry.png)
 
