@@ -418,3 +418,6 @@ Patterns should support SOLID principles, not violate them.
 - Python-specific design pattern resources and examples
 
 Remember: The goal is to write maintainable, readable code. Use patterns to achieve this, not to show off your knowledge of patterns!
+
+## Custom JSON Deck Portability
+Both flat array decks (`[{"question": ..., "answer": ...}]`) and metadata-wrapped decks (`{"cards": [...]}`) normalize into immutable `Flashcard` instances via `data_loader.py`.
