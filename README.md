@@ -1,5 +1,6 @@
 # Adaptive Flashcard Quizzer — Active-Recall CLI Learning Engine
 
+[![CI](https://github.com/kenseiAmit/adaptive-flashcard-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/kenseiAmit/adaptive-flashcard-cli/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/Python-3.9%2B%20Stdlib-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Pytest](https://img.shields.io/badge/Pytest-26%2F26%20Passing-16A34A?style=flat-square&logo=pytest&logoColor=white)
 ![Coverage](https://img.shields.io/badge/Statement%20Coverage-97%25-0D9488?style=flat-square)
