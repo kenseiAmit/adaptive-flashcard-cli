@@ -70,7 +70,7 @@
     "description": "A Python project for learning AI-assisted software development",
     "language": "python",
     "version": "1.0.0",
-    "author": "Amit Kumar Koshta",
+    "author": "Amit Kumar",
     "main": "main.py",
     "test_directory": "tests",
     "source_directories": [".", "utils"],

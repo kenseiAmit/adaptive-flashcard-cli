@@ -1,6 +1,6 @@
 # AI-Assisted Development Project Report
 
-**Author:** Amit Kumar Koshta  
+**Author:** Amit Kumar  
 **Project Title:** Flashcard Quizzer: AI-Assisted CLI Learning Application  
 **Date:** May 14, 2024
 
