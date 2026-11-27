@@ -13,6 +13,8 @@
 
 ---
 
+![Adaptive Spaced-Repetition CLI — Zero-Dependency OOP Blueprint](docs/images/architecture_blueprint.png)
+
 ![Coverage & Adaptive Retry Telemetry](docs/images/coverage_and_adaptive_retry.png)
 
 ## Architecture & Strategy Pattern Topology
